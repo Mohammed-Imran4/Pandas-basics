@@ -8,7 +8,12 @@ These commands are used with Pandas to draw graphs:-
 
 *df.plot(kind='hist') → shows how data is distributed
 
-df.plot(kind='box') → shows data range using box plot
+*df.plot(kind='box') → shows data range using box plot
 
-df.plot(kind='kde') → smooth curve showing data density
+*df.plot(kind='kde') → smooth curve showing data density
 
+*df.plot(kind='pie', y='col') → pie chart from one column
+
+*df.plot.scatter(x='c1', y='c2') → scatter plot (dots)
+
+*df.plot(kind='area') → area filled under the line
