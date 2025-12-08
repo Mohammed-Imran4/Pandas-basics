@@ -17,3 +17,7 @@ These commands are used with Pandas to draw graphs:-
 *df.plot.scatter(x='c1', y='c2') → scatter plot (dots)
 
 *df.plot(kind='area') → area filled under the line
+
+ *Line Plot  
+A line plot is used to show trends over time.  
+In this example, we plot monthly sales data.
