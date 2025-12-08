@@ -21,3 +21,12 @@ These commands are used with Pandas to draw graphs:-
  *Line Plot  
 A line plot is used to show trends over time.  
 In this example, we plot monthly sales data.
+
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.DataFrame({
+    'Month': ['Jan','Feb','Mar','Apr','May'],
+    'Sales': [200, 250, 300, 280, 350]
+})
+df.plot(kind='line', x='Month', y='Sales', title='Monthly Sales Trend')
+plt.show()
