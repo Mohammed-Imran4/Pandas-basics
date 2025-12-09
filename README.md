@@ -30,3 +30,7 @@ df = pd.DataFrame({
 })
 df.plot(kind='line', x='Month', y='Sales', title='Monthly Sales Trend')
 plt.show()
+
+ . Scatter Plot :
+A scatter plot shows the relationship between two variables.  
+We compare Height vs Weight of individuals.
