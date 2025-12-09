@@ -34,3 +34,7 @@ plt.show()
  . Scatter Plot :
 A scatter plot shows the relationship between two variables.  
 We compare Height vs Weight of individuals.
+example:
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
