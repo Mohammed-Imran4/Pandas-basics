@@ -44,3 +44,15 @@ df = pd.DataFrame({
 })
 df.plot.scatter(x='Height', y='Weight', title='Height vs Weight Scatter Plot')
 plt.show()
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+df = pd.DataFrame({
+    'Height': np.random.randint(140, 190, 50),
+    'Weight': np.random.randint(45, 90, 50)
+})
+
+df.plot.scatter(x='Height', y='Weight', title='Height vs Weight Scatter Plot')
+plt.show()
